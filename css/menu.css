@@ -1,0 +1,127 @@
+
+.title-account h1 {
+    margin-left: 17px;
+    font-size: 22px;
+}
+.header-menu {
+    background-color: #fe771c;
+    padding: 12px 22px;
+}
+.header-menu input {
+    padding: 13px 50px;
+    border: none;
+    border-radius: 20px;
+    transform: translateX(25px);
+    position: relative;
+    z-index: 3;
+    outline: none;
+}
+.header-menu button {
+    padding: 13px 23px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    transform: translateX(-22px);
+    position: relative;
+    z-index: 4;
+    border: none;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    outline: none;
+}
+.title-account p {
+    font-size: 15px;
+}
+.list-menu {
+    border: 1px dashed #000;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.search-menu {
+    transform: translateY(-340px);
+}
+/*  */
+.menu-food {
+    margin-left: 50px;
+    width: 56%;
+}
+.container-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.sort-menu {
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 20px;
+    width: 94%;
+    margin-left: 38px;
+}
+.title-sort {
+    font-size: 20px;
+}
+.select-sort {
+
+}
+.list-sort-food:hover {
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all .4s linear;
+}
+.list-sort-food {
+    width: 390px;
+    background-color: #fff;
+    margin-top: 30px;
+    box-shadow: 1px 1px 1px #ccc;
+    flex: 0 0 auto;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+.food-sort {
+    padding: 15px 30px;
+}
+.crad-img img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.card-body h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer-card {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer-card i {
+    color: #fe771c;
+}
+.footer-card span {
+    margin-left: 10px;
+    color: #fe771c;
+}
+.footer-card p {
+    margin-left: 10px;
+    margin-top: -4px;
+}
+.footer-card i {
+
+}
+/* sua chen code */
+.container-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 102%;
+    justify-content: center;
+}
+/* ket thu sua chen code */

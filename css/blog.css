@@ -1,0 +1,56 @@
+.container {
+    flex-direction: column;
+}
+.list-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.list-blog img {
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.content-blog  {
+    width: 50%;     
+}
+.content-blog h1:hover {
+    color: #fe771c;
+    transition: all .4s linear;
+    cursor: pointer;
+}
+.content-blog p {
+    margin-top: 10px;
+}
+.content-blog h1 {
+    font-size: 19px;
+    margin-top: 10px;
+}
+.blog-footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    width: 90%;
+    font-size: 17px;
+}
+.blog-footer i {
+    color: #fe771c;
+}
+
+.left-blog p {
+    margin-left: 5px;     
+}
+.left-blog {
+    display: flex;
+}
+.right-blog {
+    display: flex;
+}
+.right-blog p {
+    margin-left: 5px;
+}
+.right-blog i {
+    margin-left: 10px;
+}

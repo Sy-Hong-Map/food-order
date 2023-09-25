@@ -1,0 +1,49 @@
+/* sua loi chen code */
+.nav-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+/* ket thuc sua loi chen code */
+.contact-name input {
+    width: 71%;
+    padding: 15px 0px;
+    border: 1px solid #fe771c;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 20px;
+}
+.contact-name label {
+
+}
+.contact-name textarea {
+    width: 70%;
+    outline: none;
+    border: 1px solid #fe771c;
+}
+.contact-name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.img-detail img {
+    width: 210%;
+    border-radius: 20px;
+}
+.title-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+}
+.title-detail i {
+    font-size: 40px;
+    color: #fe771c;
+}
+.title-detail p {
+    line-height: 1.6;
+    width: 50%;
+    margin-left: 20px;
+    font-size: 17px;
+}

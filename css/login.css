@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+#main {
+
+}
+a {
+        text-decoration: none;
+    }
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1140px;
+}
+.title a  {
+    color: #000;
+}
+.content-img span,
+.content h4,
+.text-copy a,
+.sign a,
+.title h1 span {
+    color: #fe771c;
+}
+.login {
+    margin: 48px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1140px;
+}
+
+.content {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.body-login {
+    width: 50%;
+}
+.form-group {
+    margin-top: 20px;
+}
+.form-group  label {
+}
+.form-group  input {
+    width: 93%;
+    margin-top: 10px;
+    padding: 12px 12px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    padding-left: 0;
+    border-radius: 0;
+    outline: none;
+}
+.form-check {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    width: 93%;
+}
+.form-check a {
+    float: right;
+}
+.form-check  label {
+    margin-left: 5px;
+}
+.form-check input {
+    width: 15px;
+    height: 15px;
+
+}
+.form-check input [type=checkbox] {
+    border-radius: 3.8rem;
+}
+.form-check a {
+    color: #8b8c99;
+    font-weight: 500;
+}
+.form-check a:hover,
+.btn-login:hover {
+    cursor: pointer;
+}
+.btn-login {
+    width: 93%;
+    padding: 20px 0px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    background-color: #fe771c;
+}
+.sign {
+    margin-top: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.sign a:hover {
+    color: #0a58ca;
+}
+.sicial-login {
+    margin-top: 20px;
+    border-top: 1px dashed#000;
+    width: 46%;
+    text-align: center;
+}
+.sicial-login h6 {
+   font-size: 25px;  
+   margin-top: 20px;   
+}
+.cosial-link {
+    margin-top: 30px;
+}
+.cosial-link a {
+    margin-right: 10px;
+    border-radius: 30px;
+    padding: 13px 40px;
+    color: #fff;
+    font-size: 17px;
+}
+.text-copy {
+    margin-top: 48px;
+    text-align: center;
+    width: 46%;
+    transform: translateY(42px);
+}
+.img-login {
+}
+.content-img {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+}
+.image-test {
+    min-height: 110vh;
+    width: 49%;
+    background: url(img/img-login/half_column_bg.jpg);
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

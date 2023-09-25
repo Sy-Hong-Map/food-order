@@ -1,0 +1,133 @@
+.container {
+    margin-top: 270px;
+}
+.infor-account {
+    transform: translateY(-369px);
+}
+.person-infor {
+    border: 1px dashed #000;
+    padding: 20px 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.person-infor img {
+    width: 120px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.person-infor h2 {
+    color: #fe771c;
+}
+.person-infor p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #5a5b67;
+}
+.btn-account {
+    margin-top: 20px;
+    padding: 14px 30px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: #fe771c;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+}
+.list-account {
+    margin-top: 30px;
+    border: 1px dashed #000;
+    border-radius: 15px;
+    padding: 15px 30px;
+}
+.list-account  h1 {
+    margin-left: 20px;
+}
+.title-account::before {
+    content: "";
+    position: absolute;
+    height: 4.4%;
+    width: 3px;
+    padding: 1px;
+    background-color: #fe771c;
+}
+
+.nav-account {
+    list-style: none;
+    margin-top: 20px;
+    border-top: 1px dashed#000;
+}
+.nav-account li {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #5a5b67;
+}
+.nav-account li:hover {
+    color: rgb(255, 109, 26);
+    transition: 0.5s linear;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.history-account {
+    margin-left: 50px;
+}
+.list-history {
+    display: flex;
+    margin-top: 30px;
+}
+.history-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.content-list {
+    color: #5a5b67;
+}
+.content-list h2:hover {
+    color: #fe771c;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.content-list p {
+    margin-top: 10px;
+}
+.footer-list {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-around;
+    border-top: 1px dashed #000;
+    padding-top: 15px;
+}
+.footer-list p {
+    font-size: 18px;
+    color: #5a5b67;
+}
+.btn-history button {
+    padding: 10px 20px;
+    border: 1px solid #fe771c;
+    background-color: #fe771c;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-history .btn-help {
+    background-color: #fff;
+    color: #fe771c;
+}
+.btn-history .btn-help:hover  {
+    background-color: #fe771c;
+    color: #fff;
+    transition: all .4s linear;
+}   
+.img-history img {
+    max-width: 100%;
+    height: auto;
+}

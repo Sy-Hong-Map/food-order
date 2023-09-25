@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: #fafafafa;
+}
+.col-white {
+    color: #fff;
+}
+/* header */
+#content,
+#header {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 73%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+.nav {
+    float: right;
+}
+.nav li > a:hover,
+.nav > li:hover > a,
+.nav > li:hover {
+    cursor: pointer;
+    color: #fff;
+}
+.nav li {
+    display: inline-block;
+    transform: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.nav > li {
+    padding: 30px 0;
+}
+.nav-header {
+    margin-top: 30px;
+}
+.nav-header h1 {
+    display: contents;
+    font-size: 40px;
+}
+/* menu da cap */
+.nav-c2 li {
+    display: block;
+    margin-top: 12px;
+}
+.nav .nav-c2 {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+
+}
+.nav > li:hover > ul {
+    display: block;
+    visibility: visible;
+    height: 220px;
+    width: 180px;
+    transform: translate3d(0px, 18px, 0px);
+    z-index: 999;
+    border: none;
+    border-radius: 16px;
+}
+.nav-c2 a li:hover {
+    color: rgb(255, 109, 26);
+    transition: 0.5s linear;
+    padding-left: 20px;
+}
+.nav li {
+    color: #000;
+}
+.nav li:hover {
+    color: #fff;
+}
+/*  */
+.tile a,
+.nav-header a {
+    color: rgb(255, 109, 26);
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    width: 100%;
+}
+.title {
+    width: 50%;
+}
+.title h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+.img-container {
+    width: 60%;
+    transform: translateX(120px);
+}
+.img-container img {
+    width: 562px;
+}
+
+/* content */
+#content {
+    margin-top: 90px;
+}
+.food {
+    background-color: #fff;
+    border-radius: 100px;
+    display: inline-flex;
+    padding: 20px 20px;
+    margin-left: 35px;
+    box-shadow: 0 0 10px #ededed;
+    cursor: pointer;
+}
+.food:hover .img-list {
+    border-color: rgb(255, 109, 26);
+}
+.img-list {
+    border: 1px solid #000;
+    border-radius: 60%;
+    width: 43px;
+    height: 43px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 12px;
+}
+.img-list img {
+    width: 20px;
+}
+.food a {
+    text-decoration: none;
+    color: #000;
+}
+/* introduce */
+.introduce {
+    display: flex;
+    margin: 90px 0;
+}
+.img-introduce {
+    width: 50%;
+
+}
+.img-introduce img {
+    width: 450px;
+}
+.title-introduce {
+    width: 50%;
+}
+.title-introduce p {
+  margin-top: 20px;
+}
+/* slient */
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title-slient h1 {
+    font-size: 50px;
+}
+.slient {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(-50px);
+}
+.list-slient {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 328px;
+    margin: 0 30px;
+    height: 300px;
+    box-shadow: 5px 5px 25px rgb(0,0,0,0.1);
+
+}
+.list-slient .head-slient {
+    display: flex;
+    align-items: center;
+
+}
+.list-slient .item-head {
+    margin-left: 10px;
+    text-align: center;
+}
+.list-slient .item-head h4 {
+    margin-top: 5px;
+    color: #fe771c;
+}
+.list-slient .coment {
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #5a5b67;
+}
+.icon-slient {
+    margin-top: 15px;
+    color: #fe771c;
+}
+/* footer */
+#footer {
+    background-color: #282932;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contact ul li {
+    list-style: none;
+    color: #fff;
+}
+.img-footer img {
+    width: 300px;
+    cursor: pointer;
+}
+.tile {
+    margin-right: 30px;
+    width: 300px;
+}
+.tile  h1 {
+    font-size: 70px;
+}
+.tile  p {
+    margin-bottom: 20px;
+}
+.icon-footer {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.contact li a:hover,
+.icon-footer:hover {
+    color: rgb(255, 109, 26);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact {
+    margin-left: 30px;
+}
+.contact i {
+    color: rgb(255, 109, 26);
+}
+.contact li {
+    font-size: 20px;
+    margin-top: 10px;
+    transform: translate(50px, 55px);
+}
+.contact li a {
+    color: #fff;
+    text-decoration: none;
+}
